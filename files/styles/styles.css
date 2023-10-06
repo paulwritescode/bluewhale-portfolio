@@ -29,15 +29,16 @@ a:hover {
   display: flex;
   gap: 15px;
   justify-content: space-between;
-  padding: 4px 0px 4px 0px;
+  padding: 20px 5px 4px 5px;
   margin: 20px 0px 5px 0px;
   border-top: 2px solid rgb(254, 119, 8);
+  border-radius: 2px;
 }
 
 /* about section */
 .about {
   display: flex;
-  gap: 22px;
+  gap: 10px;
   justify-content: center;
   /* margin-top: 12px; */
   /* position: relative; */
@@ -50,7 +51,7 @@ a:hover {
 /* .userimage {
   width: 200px;
 } */
-img {
+.otp {
   width: 250px;
   height: ;
   background-size: cover;
