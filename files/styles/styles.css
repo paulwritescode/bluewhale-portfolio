@@ -127,6 +127,8 @@ span {
 .topicons {
   display: flex;
   gap: 9px;
+  border-radius: 10px;
+  border: 1px solid rgb(161, 72, 0);
 }
 .icon img {
   /* display: flex;
@@ -135,8 +137,13 @@ span {
   align-items: center; */
   width: 100px;
   height: 100px;
-  margin: 10px;
-  padding: 10px;
+
   background-color: white;
-  border-radius: 50%;
+}
+.icon {
+  background-color: white;
+  margin: 10px;
+  padding: 4px;
+  border: 1px solid rgb(161, 73, 0);
+  border-radius: 9px;
 }
